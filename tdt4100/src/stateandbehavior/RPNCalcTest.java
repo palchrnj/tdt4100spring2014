@@ -5,7 +5,7 @@ import no.hal.jex.standalone.JexStandalone;
 import junit.framework.TestCase;
 
 @JExercise(
-	description="A Calculator must contain two double fields for first and second operand, a char for operand and methods for setting these fields and calculating the result."
+	description="A RPNCalc must support stack functionality and performing operation."
 )
 public class RPNCalcTest extends TestCase {
 
