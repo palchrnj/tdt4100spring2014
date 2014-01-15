@@ -4,27 +4,27 @@ import java.util.ArrayList;
 
 public class RPNCalc {
 	
-private ArrayList<Double> stack = new ArrayList<>();
+private ArrayList<Double> stack = new ArrayList<Double>();
 	
 	public void push(double d) {
 		stack.add(d);
 	}
 	
-	public Double pop() {
+	public double pop() {
 		if (stack.size() >= 1) {
 			double d = stack.get(stack.size()-1);
 			stack.remove(stack.size()-1);
 			return d;
 		} else {
-			return null;
+			return Double.NaN;
 		}
 	}
 	
-	public Double peek(int i) {
+	public double peek(int i) {
 		if (0 <= i && i <= stack.size()-1) {
 			return stack.get(stack.size()-1-i);			
 		} else {
-			return null;
+			return Double.NaN;
 		}
 	}
 	
