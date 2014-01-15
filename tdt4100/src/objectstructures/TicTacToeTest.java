@@ -126,6 +126,26 @@ public class TicTacToeTest extends TestCase {
 	}
 	
 	@JExercise(
+			tests="String hasWon()",
+			description="The hasWon() checks whether one of the players (\"X\" or \"O\") has won the game. This test verifies that a full board with no winner results in draw."
+	)
+	public void testHasWonDraw() {
+		// Draw
+		ttt.makePlacement("X", 0, 0);
+		ttt.makePlacement("O", 1, 0);
+		ttt.makePlacement("X", 2, 0);
+
+		ttt.makePlacement("O", 0, 1);
+		ttt.makePlacement("X", 1, 1);
+		ttt.makePlacement("X", 2, 1);
+
+		ttt.makePlacement("O", 0, 2);
+		ttt.makePlacement("X", 1, 2);
+		ttt.makePlacement("O", 2, 2);
+		assertEquals("draw", ttt.hasWon());
+	}
+	
+	@JExercise(
 			tests="String changePlayer(String)",
 			description="The changePlayer(String) method changes the active player (from \"X\" to \"O\", and vice versa)."
 	)

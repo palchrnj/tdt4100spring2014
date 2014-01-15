@@ -47,31 +47,40 @@ public class TicTacToe {
 	
 	public String hasWon() {
 		// Three in a row
-		if (gridString.contains("XXX")) {
+		String row1 = gridString.substring(0, 3);
+		String row2 = gridString.substring(3, 6);
+		String row3 = gridString.substring(6, 9);
+		if (row1.contains("XXX") || row2.contains("XXX") || row3.contains("XXX")) {
 			return "X";
-		} else if (gridString.contains("OOO")) {
+		} else if (row1.contains("OOO") || row2.contains("OOO") || row3.contains("OOO")) {
 			return "O";
 		}
 		
 		// Three in a column
-		String str = "" + gridString.charAt(0) + gridString.charAt(3) + gridString.charAt(6) + 
-				gridString.charAt(1) + gridString.charAt(4) + gridString.charAt(7) + 
-				gridString.charAt(2) + gridString.charAt(5) + gridString.charAt(8);
-		if (str.contains("XXX")) {
+		String col1 = "" + gridString.charAt(0) + gridString.charAt(3) + gridString.charAt(6);
+		String col2 = "" + gridString.charAt(1) + gridString.charAt(4) + gridString.charAt(7);
+		String col3 = "" + gridString.charAt(2) + gridString.charAt(5) + gridString.charAt(8);
+		if (col1.contains("XXX") || col2.contains("XXX") || col3.contains("XXX")) {
 			return "X";
-		} else if (str.contains("OOO")) {
+		} else if (col1.contains("OOO") || col2.contains("OOO") || col3.contains("OOO")) {
 			return "O";
 		}
 		
 		// Three across
-		str = "" + gridString.charAt(0) + gridString.charAt(4) + gridString.charAt(8) + 
-				gridString.charAt(2) + gridString.charAt(4) + gridString.charAt(6);
-		if (str.contains("XXX")) {
+		String across1 = "" + gridString.charAt(0) + gridString.charAt(4) + gridString.charAt(8);
+		String across2 = "" + gridString.charAt(2) + gridString.charAt(4) + gridString.charAt(6);
+		if (across1.contains("XXX") || across2.contains("XXX")) {
 			return "X";
-		} else if (str.contains("OOO")) {
+		} else if (across1.contains("OOO") || across2.contains("OOO")) {
 			return "O";
 		}
-		return null;
+		// Draw
+		for (int i = 0; i < gridString.length(); i++) {
+			if (gridString.charAt(i) == ' ') {
+				return null;
+			}
+		}
+		return "draw";
 	}
 	
 	public String toString() {
@@ -139,9 +148,12 @@ public class TicTacToe {
 			}
 			// Check win condition
 			String hasWonString = hasWon(); 
-			if (hasWonString != null) {
+			if (hasWonString == "X" || hasWonString == "Y" ) {
 				System.out.println(this);
 				System.out.println("Player " + hasWonString + " has won the game.");
+			} 
+			if (hasWonString == "draw") {
+				System.out.println("The game ended in a draw.");
 			}
 		}
 		return true;
