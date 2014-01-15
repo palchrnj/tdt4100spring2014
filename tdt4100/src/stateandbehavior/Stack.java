@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Stack {
 	
-	private ArrayList<String> stringList = new ArrayList<>();
+	private ArrayList<String> stringList = new ArrayList<String>();
 	
 	public void push(String str) {
 		stringList.add(str);
