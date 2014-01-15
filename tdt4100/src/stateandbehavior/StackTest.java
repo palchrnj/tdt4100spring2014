@@ -86,6 +86,6 @@ public class StackTest extends TestCase {
 	}
 
 	public static void main(String[] args) {
-		JexStandalone.main(AccountTest.class);
+		JexStandalone.main(StackTest.class);
 	}
 }

@@ -99,6 +99,6 @@ public class CalculatorTest extends TestCase {
 	}
 
 	public static void main(String[] args) {
-		JexStandalone.main(AccountTest.class);
+		JexStandalone.main(CalculatorTest.class);
 	}
 }
