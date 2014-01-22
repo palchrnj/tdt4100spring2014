@@ -1,0 +1,5 @@
+<eResourceEntry  timestamp='1390319499254' resUri='platform:/resource/tdt4100/src/encapsulation/StackTest.java.jex' key='resource selected' value='null'/>
+<eObjectEntry  timestamp='1390319512248' resUri='platform:/resource/tdt4100/src/encapsulation/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.0' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390319512255' resUri='platform:/resource/tdt4100/src/encapsulation/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.1' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390319512262' resUri='platform:/resource/tdt4100/src/encapsulation/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390319512269' resUri='platform:/resource/tdt4100/src/encapsulation/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='test run status' value='true'/>

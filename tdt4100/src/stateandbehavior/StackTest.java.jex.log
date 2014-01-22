@@ -1,0 +1,11 @@
+<eResourceEntry  timestamp='1389715687105' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' key='resource selected' value='null'/>
+<eObjectEntry  timestamp='1389715688751' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.0' key='junit test launch' value='testPush'/>
+<eObjectEntry  timestamp='1389715689827' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.0' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1389715693216' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.1' key='junit test launch' value='testPop'/>
+<eObjectEntry  timestamp='1389715694368' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.1' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1389715697290' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='junit test launch' value='testPeek'/>
+<eObjectEntry  timestamp='1389715698409' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1389715701288' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='junit test launch' value='testGetSize'/>
+<eObjectEntry  timestamp='1389715702444' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1389715705470' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.4' key='junit test launch' value='testGetRandomString'/>
+<eObjectEntry  timestamp='1389715706596' resUri='platform:/resource/tdt4100/src/stateandbehavior/StackTest.java.jex' fragmentId='//@requirements.0/@requirements.4' key='test run status' value='true'/>

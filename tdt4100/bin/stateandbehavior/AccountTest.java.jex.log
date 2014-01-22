@@ -1,0 +1,7 @@
+<eResourceEntry  timestamp='1389504289667' resUri='platform:/resource/tdt4100/src/stateandbehavior/AccountTest.java.jex' key='resource selected' value='null'/>
+<eObjectEntry  timestamp='1389504290988' resUri='platform:/resource/tdt4100/src/stateandbehavior/AccountTest.java.jex' fragmentId='//@requirements.0/@requirements.0' key='junit test launch' value='testDeposit'/>
+<eObjectEntry  timestamp='1389504292261' resUri='platform:/resource/tdt4100/src/stateandbehavior/AccountTest.java.jex' fragmentId='//@requirements.0/@requirements.0' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1389504295328' resUri='platform:/resource/tdt4100/src/stateandbehavior/AccountTest.java.jex' fragmentId='//@requirements.0/@requirements.1' key='junit test launch' value='testDepositNegativeAmount'/>
+<eObjectEntry  timestamp='1389504296412' resUri='platform:/resource/tdt4100/src/stateandbehavior/AccountTest.java.jex' fragmentId='//@requirements.0/@requirements.1' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1389504298989' resUri='platform:/resource/tdt4100/src/stateandbehavior/AccountTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='junit test launch' value='testAddInterest'/>
+<eObjectEntry  timestamp='1389504300042' resUri='platform:/resource/tdt4100/src/stateandbehavior/AccountTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='test run status' value='true'/>

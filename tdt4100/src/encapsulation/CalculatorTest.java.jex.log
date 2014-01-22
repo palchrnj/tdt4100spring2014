@@ -1,0 +1,17 @@
+<eResourceEntry  timestamp='1390137627452' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' key='resource selected' value='null'/>
+<eObjectEntry  timestamp='1390137634081' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.0' key='junit test launch' value='testSetGetFirstOperand'/>
+<eObjectEntry  timestamp='1390137635901' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.0' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390137640289' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.1' key='junit test launch' value='testSetGetSecondOperand'/>
+<eObjectEntry  timestamp='1390137642077' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.1' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390137644514' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='junit test launch' value='testSetGetOperator'/>
+<eObjectEntry  timestamp='1390137646234' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390137649181' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='junit test launch' value='testCalculateResult'/>
+<eObjectEntry  timestamp='1390137650931' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390137706839' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='junit test launch' value='testCalculateResult'/>
+<eObjectEntry  timestamp='1390137708574' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390138177575' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='junit test launch' value='testSetGetOperator'/>
+<eObjectEntry  timestamp='1390138179302' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390138204708' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='junit test launch' value='testSetGetOperator'/>
+<eObjectEntry  timestamp='1390138205794' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.2' key='test run status' value='true'/>
+<eObjectEntry  timestamp='1390138249539' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='junit test launch' value='testCalculateResult'/>
+<eObjectEntry  timestamp='1390138251401' resUri='platform:/resource/tdt4100/src/encapsulation/CalculatorTest.java.jex' fragmentId='//@requirements.0/@requirements.3' key='test run status' value='true'/>
