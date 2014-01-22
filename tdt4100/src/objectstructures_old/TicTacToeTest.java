@@ -9,11 +9,11 @@ import junit.framework.TestCase;
 )
 public class TicTacToeTest extends TestCase {
 
-	TicTacToe ttt;
+	TicTacToeX ttt;
 
 	protected void setUp() throws Exception {
 		super.setUp();
-		ttt = new TicTacToe();
+		ttt = new TicTacToeX();
 	}
 	
 	@JExercise(
@@ -81,7 +81,7 @@ public class TicTacToeTest extends TestCase {
 			assertEquals(null, ttt.hasWon());
 			ttt.makePlacement("X", 2, row);
 			assertEquals("X", ttt.hasWon());
-			ttt = new TicTacToe();
+			ttt = new TicTacToeX();
 		}
 	}
 	
@@ -98,7 +98,7 @@ public class TicTacToeTest extends TestCase {
 			assertEquals(null, ttt.hasWon());
 			ttt.makePlacement("O", col, 2);
 			assertEquals("O", ttt.hasWon());
-			ttt = new TicTacToe();
+			ttt = new TicTacToeX();
 		}
 	}
 	
@@ -114,7 +114,7 @@ public class TicTacToeTest extends TestCase {
 		assertEquals(null, ttt.hasWon());
 		ttt.makePlacement("X", 2, 2);
 		assertEquals("X", ttt.hasWon());
-		ttt = new TicTacToe();
+		ttt = new TicTacToeX();
 
 		// Three across (NE - SW)
 		ttt.makePlacement("O", 2, 0);
