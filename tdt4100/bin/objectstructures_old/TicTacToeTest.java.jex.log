@@ -70,3 +70,4 @@
 <eObjectEntry  timestamp='1389795929775' resUri='platform:/resource/tdt4100/src/objectstructures/TicTacToeTest.java.jex' fragmentId='//@requirements.0/@requirements.4' key='test run status' value='true'/>
 <eObjectEntry  timestamp='1389795929782' resUri='platform:/resource/tdt4100/src/objectstructures/TicTacToeTest.java.jex' fragmentId='//@requirements.0/@requirements.5' key='test run status' value='true'/>
 <eObjectEntry  timestamp='1389795929788' resUri='platform:/resource/tdt4100/src/objectstructures/TicTacToeTest.java.jex' fragmentId='//@requirements.0/@requirements.6' key='test run status' value='true'/>
+<eResourceEntry  timestamp='1390387176193' resUri='platform:/resource/tdt4100/src/objectstructures_old/TicTacToeTest.java.jex' key='resource selected' value='null'/>
