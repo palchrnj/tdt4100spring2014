@@ -10,13 +10,11 @@ import junit.framework.TestCase;
 public class StackTest extends TestCase {
 
 	Stack stack;
-	RandomStringGenerator rsg;
 
 	@Override
 	protected void setUp() throws Exception {
 		super.setUp();
 		stack = new Stack();
-		rsg = new RandomStringGenerator();
 	}
 
 	@JExercise(
@@ -76,15 +74,6 @@ public class StackTest extends TestCase {
 		
 	}
 	
-	@JExercise(
-			tests="String getRandomString()",
-			description="The getRandomString() returns a random String."
-	)
-	public void testGetRandomString() {
-		assertTrue(rsg.getRandomString() instanceof String);
-		assertTrue(rsg.getRandomString() instanceof String);
-	}
-
 	public static void main(String[] args) {
 		JexStandalone.main(StackTest.class);
 	}

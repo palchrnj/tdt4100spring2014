@@ -21,11 +21,7 @@ public class AdditionCalculator {
 	}
 	
 	public double calculateResult() {
-		if (firstOperand != Double.NaN && secondOperand != Double.NaN && operator == '+') {
-			return firstOperand + secondOperand;
-		} else {
-			return Double.NaN;
-		}
+		return firstOperand + secondOperand;
 	}
 	
 	public String toString() {
