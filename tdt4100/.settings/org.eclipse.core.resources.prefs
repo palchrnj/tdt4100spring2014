@@ -1,4 +1,12 @@
 eclipse.preferences.version=1
+encoding//src/AdditionSubtractionCalculator/AdditionSubtractionCalculator.java=UTF-8
+encoding//src/AdditionSubtractionCalculator/CreditCard.java=UTF-8
+encoding//src/account/BSU.java=UTF-8
+encoding//src/adviseold/Advisor.java=UTF-8
+encoding//src/bankingoldold/SavingsAccount.java=UTF-8
+encoding//src/connectfourold/ConnectFour.java=UTF-8
+encoding//src/encapsulation/CreditCard.java=UTF-8
+encoding//src/minisudokuoldold/MiniSudoku.java=UTF-8
 encoding//src/objectstructures/TicTacToeTestPart2.java=UTF-8
 encoding//src/objectstructures_old/TicTacToeX.java=UTF-8
 encoding//src/stateandbehavior/TicTacToe.java=UTF-8
