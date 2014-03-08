@@ -12,14 +12,6 @@ public class SavingsAccount implements Account{
 		this.interest = interest;
 	}
 	
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-	
 	public void deposit(double amount) {
 		if (amount < 0) {
 			throw new IllegalArgumentException("Can only deposit positive monetary amount.");
